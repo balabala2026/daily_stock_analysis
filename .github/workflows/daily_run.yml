@@ -3,9 +3,9 @@ on:
   schedule:
   - cron: '0 0 * * *'
 jobs:
-  build:
-    runs-on:ubuntu-latest
-  steps:
-    - uses:actions/checkout@V4
-    - name:Run your script
-    -run:python main.py
+   build:  
+     runs-on: ubuntu-latest
+     steps:  
+       - uses: actions/checkout@V4
+       - name: Run your script  
+     run: python main.py
